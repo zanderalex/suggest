@@ -1,19 +1,19 @@
-.answer1 {
+#answers, #java {
   display: none;
 }
 
-.answer2 {
+#answers, #csharp {
   display: none;
 }
 
-.answer3 {
+#answers, #design {
   display: none;
 }
 
-.answer4 {
+#answers, #php {
   display: none;
 }
 
-.answer5 {
+#answers, #ruby {
   display: none;
 }
