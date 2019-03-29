@@ -17,3 +17,13 @@
 .ruby {
   display: none;
 }
+
+#submit {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+#submit:hover {
+  text-decoration: underline;
+
+}
