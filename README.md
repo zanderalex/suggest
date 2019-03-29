@@ -1,6 +1,7 @@
 _Course Selector_
 
-#### _This is a course suggesting tool for Epicodus.  answer the questions and get suggested courses as results.
+#### _This is a course suggesting tool for Epicodus.  answer the questions and get suggested courses as results.  
+Github: https://github.com/zanderalex/suggest
 March, 2019_
 
 #### By _**Alex Martinez**_

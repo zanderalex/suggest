@@ -1,15 +1,15 @@
 $(document).ready(function(){
   $("#userInput").submit(function(event){
 
-    var answer = $("input:radio[name=answer]:checked").val();
+    var answer1 = $("input:radio[name=answer1]:checked").val();
 
-    if ("#javaanswer" === "Yes"){
-      $("#java").show();
+    if ("javaanswer" === "Yes"){
+      $(".java").show();
     } else if ("#javaanswer" === "No"){
-      $("#java").hide();
+      $(".java").hide();
     }
 
-    var answer = $("input:radio[name=answer]:checked").val();
+    var answer2 = $("input:radio[name=answer2]:checked").val();
 
     if ("#csharpanswer" === "Yes"){
       $("#csharp").show();
@@ -17,7 +17,8 @@ $(document).ready(function(){
       $("#csharp").hide();
     }
 
-    var answer = $("#designanswer").val();
+    var answer3 =
+    $("input:radio[name=answer3]:checked").val();
 
     if ("#designanswer" === "Yes"){
       $("#design").show();
@@ -25,7 +26,8 @@ $(document).ready(function(){
       $("#design").hide();
     }
 
-    var answer = $("#phpanswer").val();
+    var answer4 =
+    $("input:radio[name=answer4]:checked").val();
 
     if ("#phpanswer" === "Yes"){
       $("#php").show();
@@ -33,12 +35,12 @@ $(document).ready(function(){
       $("#php").hide();
     }
 
-    var answer = $("#rubyanswer").val();
+    var answer5 = $("input:radio[name=answer5]:checked").val();
 
     if ("#rubyanswer" === "Yes"){
       $("#ruby").show();
     } else if ("#rubyanswer" === "No"){
-      $("#ruby").hide();
+      $(".ruby").hide();
     }
 
 
