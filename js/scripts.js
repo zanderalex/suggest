@@ -1,49 +1,40 @@
 $(document).ready(function(){
-  $("#userInput").submit(function(event){
+  $("#userInput").submit(function(event) {
+    event.preventDefault();
 
-    var answer1 = $("input:radio[name=answer1]:checked").val();
 
-    if ("javaanswer" === "Yes"){
-      $(".java").show();
-    } else if ("#javaanswer" === "No"){
-      $(".java").hide();
+
+    var javaIsSelected = $("input:radio[name=javaanswer]:checked").val() === "Yes";
+    var cSharpIsSelected = $("input:radio[name=csharpanswer]:checked").val() === "Yes";
+    var designIsSelected = $("input:radio[name=designanswer]:checked").val() === "Yes";
+    var phpIsSelected = $("input:radio[name=phpanswer]:checked").val() === "Yes";
+    var rubyIsSelected = $("input:radio[name=rubyanswer]:checked").val() === "Yes";
+
+    if (javaIsSelected) {
+      $("#java").show();
+    } else {
+      $("#java").hide();
     }
-
-    var answer2 = $("input:radio[name=answer2]:checked").val();
-
-    if ("#csharpanswer" === "Yes"){
+    if (cSharpIsSelected) {
       $("#csharp").show();
-    } else if ("#csharpanswer" === "No"){
+    } else {
       $("#csharp").hide();
     }
-
-    var answer3 =
-    $("input:radio[name=answer3]:checked").val();
-
-    if ("#designanswer" === "Yes"){
+    if (designIsSelected) {
       $("#design").show();
-    } else if ("#dessignanswer" === "No"){
+    } else {
       $("#design").hide();
     }
-
-    var answer4 =
-    $("input:radio[name=answer4]:checked").val();
-
-    if ("#phpanswer" === "Yes"){
+    if (phpIsSelected) {
       $("#php").show();
-    } else if ("#phpanswer" === "No"){
+    } else {
       $("#php").hide();
     }
-
-    var answer5 = $("input:radio[name=answer5]:checked").val();
-
-    if ("#rubyanswer" === "Yes"){
+    if (rubyIsSelected) {
       $("#ruby").show();
-    } else if ("#rubyanswer" === "No"){
-      $(".ruby").hide();
+    } else {
+      $("#ruby").hide();
     }
 
-
-    event.preventDefault();
   });
 });

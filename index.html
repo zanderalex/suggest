@@ -10,107 +10,103 @@
 
   <body>
     <div class="container">
-
       <h1>Which programming track fits you best?</h1>
-
-        <form id="userInput">
-          <div class="form-group">
-
+      <form id="userInput">
+      <div id="javaanswer">
         <h3>Would you like to work with a powerful programming language to be able to build things like Android phone-based apps?</h3>
         <div class="radio" id="javaanswer">
           <label>
-          <input type="radio" name="answer1" value="Yes">
+          <input type="radio" name="javaanswer" value="Yes">
           Yes
           </label>
         </div>
         <div class="radio" id="javaanswer">
-            <label>
-            <input type="radio" name="answer1" value="No">
+          <label>
+            <input type="radio" name="javaanswer" value="No">
             No
-            </label>
+          </label>
         </div>
+      </div>
 
         <h3>Would you like the flexibility to be able to work in a wide range of formats ranging from desktop tool development to game development?</h3>
         <div class="radio" id="csharpanswer">
           <label>
-          <input type="radio" name="answer2" value="Yes">
+            <input type="radio" name="csharpanswer" value="Yes">
           Yes
           </label>
         </div>
         <div class="radio" id="csharpanswer">
-            <label>
-            <input type="radio" name="answer2" value="No">
+          <label>
+            <input type="radio" name="csharpanswer" value="No">
             No
-            </label>
+          </label>
         </div>
 
         <h3>Whould you like to work primarily with how a website looks and interacts with the user?</h3>
         <div class="radio" id="designanswer">
           <label>
-          <input type="radio" name="answer3" value="Yes">
+            <input type="radio" name="designanswer" value="Yes">
           Yes
           </label>
         </div>
         <div class="radio" id="designanswer">
-            <label>
-            <input type="radio" name="answer3" value="No">
+          <label>
+            <input type="radio" name="designanswer" value="No">
             No
-            </label>
+          </label>
         </div>
 
         <h3>Whould you like to work largly with web-based content like government websites, social networks, and blogs?</h3>
         <div class="radio" id="phpanswer">
           <label>
-          <input type="radio" name="answer4" value="Yes">
-          Yes
+            <input type="radio" name="phpanswer" value="Yes">
+            Yes
           </label>
         </div>
         <div class="radio" id="phpanswer">
-            <label>
-            <input type="radio" name="answer4" value="No">
+          <label>
+            <input type="radio" name="phpanswer" value="No">
             No
-            </label>
+          </label>
         </div>
 
         <h3>Whould you like to work with a simple and flexible web framework that will require more skill as your project grows in complexity?</h3>
         <div class="radio" id="rubyanswer">
           <label>
-          <input type="radio" name="answer5" value="Yes">
-          Yes
+            <input type="radio" name="rubyanswer" value="Yes">
+            Yes
           </label>
         </div>
-        <div class="radio" id="rubyanswer">
-            <label>
-            <input type="radio" name="answer5" value="No">
+        <div class="radio" class="rubyanswer">
+          <label>
+            <input type="radio" name="rubyanswer" value="No">
             No
-            </label>
+          </label>
         </div>
 
+      <button type="submit" class="btn-btn-secondary" id="submit">CLICK HERE!</button>
+      </form>
+    </div>
 
+    <div id="java">
+      <h1>JAVA</h1>
+    </div>
 
-        <button type="submit" class="btn btn-secondary" id="submit">CLICK HERE!</button>
-        </form>
-      </div>
+    <div id="csharp">
+      <h1>C#</h1>
+    </div>
 
-      <div id="java">
-        <h1>JAVA</h1>
-      </div>
+    <div id="design">
+      <h1>DESIGN</h1>
+    </div>
 
-      <div id="csharp">
-        <h1>C#</h1>
-      </div>
+    <div id="php">
+      <h1>PHP</h1>
+    </div>
 
-      <div id="design">
-        <h1>DESIGN</h1>
-      </div>
-
-      <div id="php">
-        <h1>PHP</h1>
-      </div>
-
-      <div id="ruby">
-        <h1>RUBY</h1>
-      </div>
+    <div id="ruby">
+      <h1>RUBY</h1>
+    </div>
 
   </body>
 </html>
