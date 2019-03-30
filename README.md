@@ -1,14 +1,14 @@
-_Course Selector_
+# _Suggest_
 
-#### This is a course selecting tool for Epicodus.  Answer the questions and get suggested courses as results.  
-Github: https://github.com/zanderalex/suggest
-March 2019
+#### _This is a course selecting tool for Epicodus.  Answer the questions and get suggested courses as results.  March 31 2019
+[Github repo here] (https://github.com/zanderalex/suggest)_
+
 
 #### By _**Alex Martinez**_
 
 ## Description
 
-_This is a course suggesting tool for Epicodus.  answer the questions and get suggested courses as results.  This tool utilizes knowledge obtained from the first two weeks at Epicodus._
+_This is a course suggesting tool for Epicodus.  Answer the questions and get suggested courses as results.  This tool utilizes knowledge obtained from the first two weeks at Epicodus._
 
 ## Setup/Installation Requirements
 
