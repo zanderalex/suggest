@@ -1,7 +1,7 @@
 # _Suggest_
 
-#### _This is a course selecting tool for Epicodus.  Answer the questions and get suggested courses as results.  March 31 2019
-[Github repo here] (https://github.com/zanderalex/suggest)_
+#### This is a course selecting tool for Epicodus.  Answer the questions and get suggested courses as results.  March 31 2019
+[Github repo here] (https://github.com/zanderalex/suggest)
 
 
 #### By _**Alex Martinez**_

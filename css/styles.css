@@ -1,3 +1,7 @@
+body {
+  background-image: img/background1.jpg;
+}
+
 #java {
   display: none;
 }
