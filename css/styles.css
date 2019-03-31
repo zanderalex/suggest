@@ -7,22 +7,27 @@ body {
 
 #java {
   display: none;
+  max-width: 720px
 }
 
 #csharp {
   display: none;
+  max-width: 720px
 }
 
 #design {
   display: none;
+  max-width: 720px
 }
 
 #php {
   display: none;
+  max-width: 720px
 }
 
 #ruby {
   display: none;
+  max-width: 720px
 }
 
 #submit {
