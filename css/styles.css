@@ -1,5 +1,8 @@
 body {
-  background-image: img/background1.jpg;
+  background-image: url(https://image.ibb.co/mHHdOn/1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #java {
@@ -30,4 +33,8 @@ body {
 #submit:hover {
   text-decoration: underline;
 
+}
+
+h3 {
+  max-width: 720px
 }

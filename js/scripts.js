@@ -2,8 +2,6 @@ $(document).ready(function(){
   $("#userInput").submit(function(event) {
     event.preventDefault();
 
-
-
     var javaIsSelected = $("input:radio[name=javaanswer]:checked").val() === "Yes";
     var cSharpIsSelected = $("input:radio[name=csharpanswer]:checked").val() === "Yes";
     var designIsSelected = $("input:radio[name=designanswer]:checked").val() === "Yes";
