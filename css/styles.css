@@ -6,41 +6,41 @@ body {
 }
 
 h1 {
-  font-family: Iceberg
+  font-family: Iceberg;
 }
 
 h3 {
-  font-family: Montserrat
-  max-width: 720px
+  font-family: Montserrat;
+  max-width: 720px;
 }
 
 p {
-  font-family: Raleway
+  font-family: Raleway;
 }
 
 #java {
   display: none;
-  max-width: 720px
+  max-width: 720px;
 }
 
 #csharp {
   display: none;
-  max-width: 720px
+  max-width: 720px;
 }
 
 #design {
   display: none;
-  max-width: 720px
+  max-width: 720px;
 }
 
 #php {
   display: none;
-  max-width: 720px
+  max-width: 720px;
 }
 
 #ruby {
   display: none;
-  max-width: 720px
+  max-width: 720px;
 }
 
 #submit {
