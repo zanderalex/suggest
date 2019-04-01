@@ -1,8 +1,8 @@
 # _Suggest_
 
 #### This is a course selecting tool for Epicodus.  Answer the questions and get suggested courses as results.  March 31 2019
-[github repo here] (https://github.com/zanderalex/suggest)
-[GitHub page here] (https://zanderalex.github.io/suggest/)
+####[GitHub repo here] (https://github.com/zanderalex/suggest)
+####[GitHub page here] (https://zanderalex.github.io/suggest/)
 
 
 #### By _**Alex Martinez**_
