@@ -5,6 +5,19 @@ body {
   background-size: cover;
 }
 
+h1 {
+  font-family: Iceberg
+}
+
+h3 {
+  font-family: Montserrat
+  max-width: 720px
+}
+
+p {
+  font-family: Raleway
+}
+
 #java {
   display: none;
   max-width: 720px
@@ -38,8 +51,4 @@ body {
 #submit:hover {
   text-decoration: underline;
 
-}
-
-h3 {
-  max-width: 720px
 }
