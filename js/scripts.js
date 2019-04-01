@@ -9,27 +9,27 @@ $(document).ready(function(){
     var rubyIsSelected = $("input:radio[name=rubyanswer]:checked").val() === "Yes";
 
     if (javaIsSelected) {
-      $("#java").show();
+      $("#java").fadeIn();
     } else {
       $("#java").hide();
     }
     if (cSharpIsSelected) {
-      $("#csharp").show();
+      $("#csharp").fadeIn();
     } else {
       $("#csharp").hide();
     }
     if (designIsSelected) {
-      $("#design").show();
+      $("#design").fadeIn();
     } else {
       $("#design").hide();
     }
     if (phpIsSelected) {
-      $("#php").show();
+      $("#php").fadeIn();
     } else {
       $("#php").hide();
     }
     if (rubyIsSelected) {
-      $("#ruby").show();
+      $("#ruby").fadeIn();
     } else {
       $("#ruby").hide();
     }
